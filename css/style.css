@@ -644,7 +644,6 @@
     .svg-fill-customer:hover,
     .svg-fill-customer:focus {
         fill: var(--hover-color);
-
     }
 
     .svg-fill-customer {
