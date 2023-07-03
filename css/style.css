@@ -208,7 +208,7 @@
     }
 
     /* main-page banner */
-    .overlay {
+    .section-banner {
         text-align: center;
 
         padding-top: 188px;
@@ -217,8 +217,7 @@
         background-color: var(--primary-color);
 
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/main-page/people-office\ 1.jpg);
+                rgba(46, 47, 66, 0.7)), url(../images/main-page/people-office\ 1.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -572,19 +571,19 @@
     }
 
     /* main page o  */
-    .costomers {
+    .customer {
         padding-top: 120px;
         padding-bottom: 120px;
     }
 
-    .costomers-wrap {
+    .customer-wrap {
         display: block;
         padding-bottom: 120px;
 
 
     }
 
-    .costomers-headline {
+    .customer-headline {
         width: 1128px;
 
         margin-bottom: 72px;
@@ -598,7 +597,7 @@
 
     }
 
-    .costomers-items {
+    .customer-items {
 
         display: flex;
         justify-content: space-between;
@@ -606,7 +605,7 @@
 
     }
 
-    .svg-fill-costomers {
+    .svg-fill-customer {
         fill: var(--costumers-color);
         width: 104px;
         height: 56px;
@@ -614,18 +613,15 @@
 
 
 
-    .item-costomers {
+    .item-customer {
 
         width: 168px;
         height: 88px;
-        margin-right: 24px;
+
     }
 
-    .item-cosomers:last-child {
-        margin-right: 0px;
-    }
 
-    .icon-svg-costomers {
+    .icon-svg-customer {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -638,20 +634,20 @@
         color: var(--costumers-color)
     }
 
-    .icon-svg-costomers:hover,
-    .icon-svg-costomers:focus {
+    .icon-svg-customer:hover,
+    .icon-svg-customer:focus {
         border-color: #404bbf;
         color: #404bbf;
     }
 
 
-    .svg-fill-costomers:hover,
-    .svg-fill-costomers:focus {
+    .svg-fill-customer:hover,
+    .svg-fill-customer:focus {
         fill: var(--hover-color);
 
     }
 
-    .svg-fill-costomers {
+    .svg-fill-customer {
         fill: currentColor;
     }
 
@@ -703,14 +699,11 @@
     .footer-item-svg {
         width: 40px;
         height: 40px;
-        margin-right: 16px;
+
 
 
     }
 
-    .footer-item-svg:last-child {
-        margin-right: 0px;
-    }
 
 
 
