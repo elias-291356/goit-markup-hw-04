@@ -702,18 +702,19 @@
     .footer-item-svg {
         width: 40px;
         height: 40px;
-        background-color: var(--accent-color);
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        vertical-align: center;
+
 
     }
 
     .footer-link-svg {
         display: flex;
         align-items: center;
+        justify-content: center;
+        background-color: var(--accent-color);
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+
     }
 
     .footer-svg-fill {
@@ -722,8 +723,8 @@
         fill: var(--secondary-color);
     }
 
-    .footer-item-svg:hover,
-    .footer-item-svg:focus {
+    .footer-link-svg:hover,
+    .footer-link-svg:focus {
         background-color: #31d0aa;
     }
 
@@ -864,6 +865,7 @@
     /* portfolio footer  */
     .footer-content {
         display: flex;
+        align-items: baseline;
     }
 
     .footer-wrap-text {
@@ -881,7 +883,12 @@
     }
 
     .social-title {
-        padding-bottom: 16px;
+        margin-bottom: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--white-color);
     }
 
 
