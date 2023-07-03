@@ -673,7 +673,6 @@
         background-color: var(--primary-color);
         padding: 100px 0px;
         display: flex;
-
     }
 
     .footer .logo {
@@ -698,9 +697,6 @@
     .footer-item-svg {
         width: 40px;
         height: 40px;
-
-
-
     }
 
 
