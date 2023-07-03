@@ -208,7 +208,7 @@
     }
 
     /* main-page banner */
-    .section-banner {
+    .overlay {
         text-align: center;
 
         padding-top: 188px;
@@ -384,7 +384,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 4px;
+        border-radius: 4px;
         margin-bottom: 8px;
         width: 264px;
         height: 112px;
@@ -571,20 +571,20 @@
         background-size: 16px 16px; */
     }
 
-    /* main page costumers  */
-    .costumers {
+    /* main page o  */
+    .costomers {
         padding-top: 120px;
         padding-bottom: 120px;
     }
 
-    .costumers-wrap {
+    .costomers-wrap {
         display: block;
         padding-bottom: 120px;
 
 
     }
 
-    .costumers-headline {
+    .costomers-headline {
         width: 1128px;
 
         margin-bottom: 72px;
@@ -598,7 +598,7 @@
 
     }
 
-    .costumers-items {
+    .costomers-items {
 
         display: flex;
         justify-content: space-between;
@@ -606,7 +606,7 @@
 
     }
 
-    .svg-fill-costumers {
+    .svg-fill-costomers {
         fill: var(--costumers-color);
         width: 104px;
         height: 56px;
@@ -614,17 +614,18 @@
 
 
 
-    .item-costumers {
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
+    .item-costomers {
+
         width: 168px;
         height: 88px;
-        /* border: 1px solid var(--costumers-color);
-        border-radius: 4px; */
+        margin-right: 24px;
     }
 
-    .icon-svg-costumers {
+    .item-cosomers:last-child {
+        margin-right: 0px;
+    }
+
+    .icon-svg-costomers {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -637,20 +638,20 @@
         color: var(--costumers-color)
     }
 
-    .icon-svg-costumers:hover,
-    .icon-svg-costumers:focus {
+    .icon-svg-costomers:hover,
+    .icon-svg-costomers:focus {
         border-color: #404bbf;
         color: #404bbf;
     }
 
 
-    .svg-fill-costumers:hover,
-    .svg-fill-costumers:focus {
+    .svg-fill-costomers:hover,
+    .svg-fill-costomers:focus {
         fill: var(--hover-color);
 
     }
 
-    .svg-fill-costumers {
+    .svg-fill-costomers {
         fill: currentColor;
     }
 
@@ -702,9 +703,16 @@
     .footer-item-svg {
         width: 40px;
         height: 40px;
+        margin-right: 16px;
 
 
     }
+
+    .footer-item-svg:last-child {
+        margin-right: 0px;
+    }
+
+
 
     .footer-link-svg {
         display: flex;
@@ -802,6 +810,7 @@
         border-radius: 4px;
         color: var(--accent-color);
         background-color: var(--secondary-color);
+
     }
 
     .portfolio-button:hover,
@@ -810,6 +819,11 @@
         border: 1px solid transparent;
         cursor: pointer;
         color: #ffffff;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+            0px 2px 1px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+
+
     }
 
     .portfolio-cards {
