@@ -216,8 +216,7 @@
         border-top: 1px solid #E7E9FC;
         background-color: var(--primary-color);
 
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)), url(../images/main-page/people-office\ 1.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/main-page/people-office\ 1.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -464,11 +463,12 @@
         justify-content: space-between;
         padding-bottom: 120px;
 
+
     }
 
     .item-employee {
         text-align: center;
-        margin-right: 24px;
+
         width: calc((100% - 72px) / 4);
         border-radius: 0px 0px 4px 4px;
         background-color: var(--white-color);
@@ -492,8 +492,9 @@
 
     .employee-link {
         display: flex;
+
+        /* justify-content: space-between; */
         justify-content: center;
-        justify-content: space-between;
 
         margin-top: 8px;
         height: 40px;
@@ -509,8 +510,14 @@
         width: 40px;
         background-color: var(--accent-color);
         border-radius: 50%;
+        margin-right: 24px;
 
     }
+
+    .item-svg-team:last-child {
+        margin-right: 0px;
+    }
+
 
     .fill-employee-svg {
 
