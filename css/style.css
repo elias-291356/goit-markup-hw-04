@@ -589,15 +589,15 @@
     }
 
     .customer-headline {
+        width: 1128px;
+
         margin-bottom: 72px;
         font-size: 36px;
         line-height: 1.11;
-        color: var(--primary-color);
-
-        /* letter-spacing: 0.02em;
+        letter-spacing: 0.02em;
         text-align: center;
-        text-transform: capitalize; */
-
+        text-transform: capitalize;
+        color: var(--primary-color);
 
     }
 
