@@ -605,8 +605,7 @@
     .customer-items {
         gap: 24px;
         display: flex;
-        justify-content: space-between;
-        padding: 16px 32px;
+
 
     }
 
