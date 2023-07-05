@@ -589,10 +589,11 @@
     }
 
     .customer-headline {
+        margin-bottom: 72px;
         font-size: 36px;
         line-height: 1.11;
         color: var(--primary-color);
-        margin-bottom: 72px;
+
         /* letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize; */
